@@ -171,6 +171,11 @@ gcd.tidy =
              activity_name) %>%
     summarize_each(funs(mean))
 
+# Export
+write.table(gcd.tidy,
+            file = "gcd_tidy.txt",
+            row.names = FALSE)
+
 #==============================================================================
 # FIN
 #==============================================================================
