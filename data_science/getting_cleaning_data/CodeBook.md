@@ -79,7 +79,7 @@ The process used to import, prep, and stage data in accordance with the first pa
 
 Objects loaded to `R` are stored using a standard naming convention. _For example_: each object starts with `gcd` for "Getting and Cleaning Data", followed by either `trn` to represent the `train` dataset, or `tst` for the test dataset.
 
-1. If the dataset file already exists in the user's home directory, nothing is done; else the file is downloaded.
+1. If the dataset file already exists in the current home directory, nothing is done; else the file is downloaded.
 2. Feature names are loaded (`561`) from `features.txt` and stored as an object named `gcd.cn`.
 3. Feature names are corrected using regular expressions:
     i. All parentheses at the end of feature names are removed.
@@ -116,6 +116,7 @@ The second part of the modeling problem is to create a separate and distinct tid
 2. The `gcd.comb` dataset is grouped by `subject_lab` then by `activity_name`.
 3. The mean of each feature within each group is calculated.
 4. The result is stored as an object named `gcd.tidy` which contains `180` records across `82` features.
+5. The `gcd.tidy` object is exported to the current working directory as a text file named `gcd_tidy.txt`.
 
 This satisfies the second part of the modeling problem.
 
