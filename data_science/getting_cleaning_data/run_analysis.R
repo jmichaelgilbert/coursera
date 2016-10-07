@@ -75,7 +75,7 @@ gcd.act = read.table(unz("FUCI_HAR_Dataset.zip",
                      stringsAsFactors = FALSE)[, 2]
 
 #--------------------------------------
-# Training set
+# Train dataset
 #--------------------------------------
 # Raw
 gcd.trn.raw = read.table(unz("FUCI_HAR_Dataset.zip", 
@@ -104,7 +104,7 @@ gcd.trn = data.frame(gcd.trn.raw,
 rm(list = ls(pattern = "gcd.trn."))
 
 #--------------------------------------
-# Testing set
+# Test dataset
 #--------------------------------------
 # Raw
 gcd.tst.raw = read.table(unz("FUCI_HAR_Dataset.zip", 
