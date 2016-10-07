@@ -49,23 +49,23 @@ There are `17` base features. Each `XYZ` represents `1` of `3` possible suffixes
 
 Each of these `17` features contains `1` of `17` suffixes:
 
-* _mean()_: mean value
-* _std()_: standard deviation
-* _mad()_: median absolute deviation 
-* _max()_: largest value in array
-* _min()_: smallest value in array
-* _sma()_: signal magnitude area
-* _energy()_: energy measure. Sum of the squares divided by the number of values.
-* _iqr()_: interquartile range 
-* _entropy()_: signal entropy
-* _arCoeff()_: autoregression coefficients with Burg order equal to 4
-* _correlation()_: correlation coefficient between two signals
-* _maxInds()_: index of the frequency component with largest magnitude
-* _meanFreq()_: weighted average of the frequency components to obtain a mean frequency
-* _skewness()_: skewness of the frequency domain signal 
-* _kurtosis()_: kurtosis of the frequency domain signal 
-* _bandsEnergy()_: energy of a frequency interval within the 64 bins of the FFT of each window
-* _angle()_: angle between to vectors
+* _mean()_ - mean value
+* _std()_ - standard deviation
+* _mad()_ - median absolute deviation 
+* _max()_ - largest value in array
+* _min()_ - smallest value in array
+* _sma()_ - signal magnitude area
+* _energy()_ - energy measure. Sum of the squares divided by the number of values.
+* _iqr()_ - interquartile range 
+* _entropy()_ - signal entropy
+* _arCoeff()_ - autoregression coefficients with Burg order equal to 4
+* _correlation()_ - correlation coefficient between two signals
+* _maxInds()_ - index of the frequency component with largest magnitude
+* _meanFreq()_ - weighted average of the frequency components to obtain a mean frequency
+* _skewness()_ - skewness of the frequency domain signal 
+* _kurtosis()_ - kurtosis of the frequency domain signal 
+* _bandsEnergy()_ - energy of a frequency interval within the 64 bins of the FFT of each window
+* _angle()_ - angle between to vectors
 
 In total, there are `10,299` records across `561` features.
 
